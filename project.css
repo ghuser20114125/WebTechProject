@@ -184,7 +184,6 @@ ul.navul	 {
 	opacity:0.85;
 	position: -webkit-sticky;
 	position:sticky;
-	z-index:-1;
 	top: 0;
 	padding-right:1em;
 }	
