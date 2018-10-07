@@ -1,0 +1,253 @@
+
+body.studs{
+	background-image: url("example12.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	margin:0;
+	-webkit-animation: fadein 1s;
+}
+
+
+body.bod{
+	margin:0;
+}
+
+h1.homehead{
+	letter-spacing:2px;
+	color:#EBFCEC;
+	text-align: center;
+	font-family:Baskerville;
+	font-size:96;
+	margin:0;
+}
+
+hr.lin {
+	display: block;
+	margin:0px;
+	border-style: solid;
+	border-color: #009A00;
+	border-width:2px;
+	border-radius: 20px;
+}
+
+dl.contact{
+	padding-left:15px;
+	margin:0px;
+	list-style-type: none;
+}
+
+div.contact{
+	margin:0;
+	padding:0;
+	background-color:#cbcbcb;
+	letter-spacing:1px;
+}
+
+#listhead{
+	font-family:Baskerville;
+	font-size:28;
+	font-weight:bold;
+}
+
+
+.button{
+	 background-color: #666699;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+	font-family:Baskerville;
+	font-size:18;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	border-radius:34px;
+}
+.button:hover{
+	 background-color: #111;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+	font-family:Baskerville;
+	font-size:18;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	border-radius:34px;
+}
+
+.imgbutton{
+	 background-color: #009A00;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+	font-family:Baskerville;
+	font-size:18;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	border-radius:34px;
+}
+
+.imgbutton:hover{
+	 background-color:#111;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+	font-family:Baskerville;
+	font-size:18;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	border-radius:34px;
+	opacity:0.8;
+}
+
+
+div.target{
+	background-color: #222629;
+}
+
+div.imgdescript{
+	padding-top:8px;
+	font-family:Calibri;
+	font-size:18;
+	color: white;
+	letter-spacing:1px;
+}
+
+.container {
+    position: relative;
+    width: 25%;
+	display:inline-block;
+}
+
+.image {
+	padding:2;
+	height:400px;
+	width: 270px;
+	transition: .5s ease;
+}
+
+.middle {
+  transition: 1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+  border: 3px solid #00B300;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+
+
+div.home{
+	background-image: url("bgimg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:93%;
+	background-attachment:scroll;
+	margin:0;
+	-webkit-animation: fadein 1s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0.4; }
+    to   { opacity: 1; }
+}
+
+
+ul.navul	 {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #344;
+	opacity:0.85;
+	position: -webkit-sticky;
+	position:sticky;
+	z-index:-1;
+	top: 0;
+	padding-right:1em;
+}	
+
+li.logo a {
+	display: block;
+    color: white;
+    text-align: center;
+	margin-top:3px;
+    padding: 8px 17px;
+    text-decoration: none;
+	border-radius:34px;
+}
+
+
+li.logotxt a {
+	letter-spacing:2px;
+	margin-right:5em;
+	margin-top:3px;
+	font-family:Baskerville;
+	font-size:28;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 17px;
+    text-decoration: none;
+	border-radius:34px;
+}
+
+li.navli a {
+	letter-spacing:1px;
+	margin-left:3em;
+	margin-top:3px;
+	font-family:Baskerville;
+	font-size:18;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 17px;
+    text-decoration: none;
+	border-radius:34px;
+}
+
+li.navli a:hover{
+    background-color: #666699;
+	text-decoration: underline #FFFFFF;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+	border-radius:3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #666699; 
+}
